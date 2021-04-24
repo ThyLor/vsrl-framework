@@ -47,6 +47,7 @@ The episode terminates when the agent goes off of the screen, collides with a ha
 
 ```python
 from vsrl.rl.envs import PMGoalFinding
+import numpy as np
 
 env = PMGoalFinding()
 obs = env.reset()
